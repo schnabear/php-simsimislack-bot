@@ -1,0 +1,22 @@
+{
+    "name": "schnabear/php-simsimislack-bot",
+    "description": "SimSimi bridge using PHP Slack Bot",
+    "homepage": "https://github.com/schnabear/php-simsimislack-bot",
+    "keywords": [
+        "simsimi",
+        "slack"
+    ],
+    "require": {
+        "jclg/php-slack-bot": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "schnabear"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpSimsimiSlackBot\\": "src"
+        }
+    }
+}
