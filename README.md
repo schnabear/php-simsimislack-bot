@@ -15,7 +15,9 @@ Create a new composer.json file and add the following...
         }
     ],
     "require": {
-        "schnabear/php-simsimislack-bot": "dev-master"
+        "schnabear/php-simsimislack-bot": "dev-master",
+        "php": ">=5.3.0",
+        "ext-mbstring": "*"
     }
 }
 ```
